@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title for my website -->
+    <title>Image Gallery</title>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Linking google font to html file  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header containing heading 1st -->
+    <header>
+        <h1>
+            Creating an Image Gallery 
+        </h1>
+    </header>
+    <!-- main class containing all the necessary div classes  -->
+    <div class="mainclass">
+    <div>
+        <p id="studentId"></p>
+    </div>
+    <div>
+        <!-- button holder -->
+        <label for="customNumber">Enter number from 1 to 100:</label>
+        <input id="customNumber" type="number" placeholder="" />
+    </div>
+    <div>
+        <!-- button for color change  -->
+        <button class="customColor">Change custom color</button>
+        <button class="randomColor">Change random color</button>
+    </div>
+    <div>
+        <!-- image selection -->
+        <label for="imageSelect">Select Image</label>
+        <select id="imageSelect">
+            <option value="">Please choose…</option>
+        </select>
+    </div>
+    <div>
+        <!-- Displaying image -->
+        <img id="imageDisplay" src="" alt="">
+    </div>
+    </div>
+    <!-- Lining js file to html file -->
+    <script defer src="./js/scripts.js"></script>
+</body>
+</html>

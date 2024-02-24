@@ -1,0 +1,72 @@
+/* CSS styling for the body */
+body {
+    font-family: "Quicksand", sans-serif; /* Sets the font family for the entire body */
+    text-align: center; /* Aligns text to the center */
+    background-color: #f0f0f0; /* Sets the background color of the body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px; /* Sets the maximum width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding inside the container */
+}
+
+/* Styles for h1 elements */
+h1 {
+    margin-top: 0; /* Removes top margin from h1 elements */
+}
+
+/* Button styles */
+button {
+    margin: 10px; /* Adds margin around buttons */
+    padding: 10px 20px; /* Adds padding inside buttons */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    background-color: #e8a600c7; /* Sets background color of buttons */
+    color: black; /* Sets text color of buttons */
+    border: none; /* Removes border from buttons */
+    font-weight: 700; /* Sets font weight to bold */
+    border-radius: 5px; /* Adds border radius to buttons */
+    transition: background-color 0.3s; /* Adds smooth transition effect to background color */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: orange; /* Changes background color of buttons on hover */
+}
+
+/* Select element styles */
+select {
+    padding: 10px; /* Adds padding inside select element */
+    border-radius: 5px; /* Adds border radius to select element */
+}
+
+/* Image display styles */
+#imageDisplay {
+    max-width: 100%; /* Sets maximum width for displayed images */
+    max-height: 300px; /* Sets maximum height for displayed images */
+    margin-top: 20px; /* Adds top margin to the image */
+    border-radius: 10px; /* Adds border radius to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds box shadow to the image */
+}
+
+/* Header styles */
+header h1 {
+    background-color: #001092; /* Sets background color of header */
+    color: #e8a600; /* Sets text color of header */
+    padding: 15px 0; /* Adds padding inside header */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Adds text shadow to header text */
+}
+
+/* Main content class */
+.mainclass {
+    margin-top: 8em; /* Adds top margin to the main content */
+    font-size: 24px; /* Sets font size for the main content */
+}
+
+#studentId {
+    font-size: 24px;
+    font-weight: 800;
+}
